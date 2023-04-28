@@ -1,0 +1,98 @@
+.main-area {
+  margin-top: 80px;
+  padding: 60px 40px;
+}
+.main-area form {
+  padding: 30px 20px;
+  background-color: #1c4a7b;
+  color: #fff;
+}
+.main-area form input,
+.main-area form select,
+.main-area form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  background-color: transparent;
+  background: transparent;
+  border-radius: 0;
+  color: #fff;
+  outline: none;
+  height: 35px;
+  -webkit-appearance: none;
+}
+.main-area form input:-ms-input-placeholder,
+.main-area form select:-ms-input-placeholder,
+.main-area form textarea:-ms-input-placeholder {
+  color: #fff;
+}
+.main-area form input::-moz-placeholder, .main-area form select::-moz-placeholder, .main-area form textarea::-moz-placeholder {
+  color: #fff;
+}
+.main-area form input:-ms-input-placeholder, .main-area form select:-ms-input-placeholder, .main-area form textarea:-ms-input-placeholder {
+  color: #fff;
+}
+.main-area form input::placeholder,
+.main-area form select::placeholder,
+.main-area form textarea::placeholder {
+  color: #fff;
+}
+.main-area form #submit {
+  width: 30%;
+  display: block;
+  margin: 28px auto 0;
+  background-color: #fff;
+  color: #1c4a7b;
+  padding: 5px;
+}
+.main-area .inform {
+  padding-left: 60px;
+  margin-bottom: 40px;
+}
+.main-area .inform ul {
+  list-style: none;
+  padding: 0;
+}
+.main-area .inform ul li {
+  color: #d54735;
+  margin-bottom: 5px;
+}
+.main-area .inform ul li a {
+  color: #d54735;
+}
+
+.map {
+  padding-left: 60px;
+}
+.map .map-box {
+  width: 100%;
+  padding-bottom: 56%;
+  position: relative;
+}
+.map .map-box iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 991px) {
+  .main-area .inform {
+    padding-left: 0;
+    margin-top: 40px;
+  }
+  .main-area .map {
+    padding-left: 0;
+  }
+}
+.contact-text {
+  margin-top: 16px;
+}
+
+@media (min-width: 768px) {
+  .contact-text {
+    margin-top: 146px;
+  }
+}/*# sourceMappingURL=contact.css.map */
