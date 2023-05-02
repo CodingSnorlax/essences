@@ -1,4 +1,4 @@
-let lang = "./assets/json/zh-tw"; // 預設繁中
+let lang = "./assets/json/chinese"; // 預設繁中
 
 function loadLang(lang) {
   $.getJSON(lang + ".json", function (data) {
@@ -16,7 +16,7 @@ $(document).ready(function () {
 
   $("#switchBtn").click(function () {
     if (lang === "./assets/json/en") {
-      lang = "./assets/json/zh-tw";
+      lang = "./assets/json/chinese";
     } else {
       lang = "./assets/json/en";
     }
