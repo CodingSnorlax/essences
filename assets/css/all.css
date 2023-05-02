@@ -13,7 +13,7 @@ a {
 }
 
 .logo {
-  background-image: url("./assets/img/LOGO.jpeg");
+  background-image: url("/assets/img/LOGO.jpeg");
   width: 125px;
   height: 50px;
 }
