@@ -14,7 +14,6 @@ a {
 
 /* header logo */
 h1 a {
-  background: url("/assets/img/LOGO.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 125px;
