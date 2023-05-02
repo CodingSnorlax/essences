@@ -23,6 +23,16 @@ $(document).ready(function () {
     $("body").removeClass().addClass(lang);
     loadLang(lang); // 加載切換後的語言版本的內容
   });
+
+  const swiper = new Swiper(".swiper", {
+    loop: false,
+    direction: "horizontal",
+    slidesPerView: 5, // 每行顯示卡片數量
+    spaceBetween: 30, // 卡片間距
+    autoplay: {
+      delay: 1500,
+    },
+  });
 });
 
 // 聯絡我們的表格
@@ -43,13 +53,3 @@ function submitHandler() {
   content.value = "";
   mailTitle.value = "";
 }
-
-const swiper = new Swiper(".swiper", {
-  loop: false,
-  direction: "horizontal",
-  slidesPerView: 5, // 每行顯示卡片數量
-  spaceBetween: 30, // 卡片間距
-  autoplay: {
-    delay: 2500,
-  },
-});

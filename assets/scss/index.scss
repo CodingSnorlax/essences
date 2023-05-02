@@ -33,11 +33,16 @@
 .service-intro-card {
   padding: 120px 8px;
   height: 100%;
+  width: 200px;
 }
 
 .swiper {
   max-width: 1200px;
   height: 320px;
+}
+
+.swiper-slide {
+  width: 200px;
 }
 
 .team-intro {
