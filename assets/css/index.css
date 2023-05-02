@@ -1,21 +1,23 @@
-.banner {
-  /* background-repeat: no-repeat;
-  background-size: cover;
-  background: url("../img/banner05.png"); */
-  /* background: url("https://fakeimg.pl/1920x1080/1c4a7b"); */
-  /* padding-top: 160px; */
-  height: 100vh;
+.banner h2 {
+  font-size: 66px;
+}
+
+.navbar {
+  top: 0;
+  left: 0;
+  z-index: 9999;
 }
 
 .cta {
   position: absolute;
   top: 300px;
   left: 136px;
-  z-index: 9999;
+  z-index: 6666;
 }
 
-.banner h2 {
-  font-size: 66px;
+.join-us {
+  background: url("");
+  height: 800px;
 }
 
 .service-intro {
@@ -35,9 +37,4 @@
 
 .team-intro {
   height: 800px;
-}
-
-.join-us {
-  background: url("");
-  height: 800px;
-}
+}/*# sourceMappingURL=index.css.map */

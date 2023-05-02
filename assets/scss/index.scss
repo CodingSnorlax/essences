@@ -2,55 +2,44 @@
   h2 {
     font-size: 66px;
   }
-  background: url("../img/midjourney01.png");
-  padding-top: 160px;
+
+  // background: url(""); // 先用輪播替代, 選好圖再換 bg
+  // padding-top: 160px;
 }
 
-.about-us {
-  background: url("../img/bgForAboutUs.png");
-  padding-top: 156px;
+.navbar {
+  top: 0;
+  left: 0;
+  z-index: 9999;
 }
 
-.core-value {
-  background: url("../img/bgForWinwin.jpg");
-  padding-top: 220px;
+.cta {
+  position: absolute;
+  top: 300px;
+  left: 136px;
+  z-index: 6666;
 }
 
 .join-us {
-  background: url("../img/joinus.jpg");
-  padding-top: 120px;
+  background: url("");
+  height: 800px;
 }
 
-.service {
-  h2 {
-    position: absolute;
-    left: 12%;
-    top: 50%;
-  }
-
-  position: relative;
-  background: url("../img/diagram.jpg");
-  width: 100%;
-  height: 108vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  .list-item {
-    position: absolute;
-  }
+.service-intro {
+  background: url("");
+  height: 3000px;
 }
 
-.tech {
-  left: 46%;
-  top: 247px;
+.service-intro-card {
+  padding: 120px 8px;
+  height: 100%;
 }
 
-.requirement {
-  left: 50%;
-  top: 440px;
+.swiper {
+  max-width: 1200px;
+  height: 320px;
 }
 
-.team {
-  left: 46%;
-  top: 630px;
+.team-intro {
+  height: 800px;
 }
