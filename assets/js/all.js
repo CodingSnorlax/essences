@@ -1,4 +1,4 @@
-let lang = "../assets/json/chinese"; // 預設繁中
+let lang = "/essences/assets/json/chinese"; // 預設繁中
 
 function loadLang(lang) {
   $.getJSON(lang + ".json", function (data) {
@@ -15,10 +15,10 @@ $(document).ready(function () {
   loadLang(lang); // 加載默認語言版本的內容
 
   $("#switchBtn").click(function () {
-    if (lang === "../assets/json/en") {
-      lang = "../assets/json/chinese";
+    if (lang === "/essences/assets/json/en") {
+      lang = "/essences/assets/json/chinese";
     } else {
-      lang = "../assets/json/en";
+      lang = "/essences/assets/json/en";
     }
     $("body").removeClass().addClass(lang);
     loadLang(lang); // 加載切換後的語言版本的內容
