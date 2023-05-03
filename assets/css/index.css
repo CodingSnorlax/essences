@@ -1,3 +1,7 @@
+.banner {
+  background: url("../img/cyborg-sketch-done-lidfixed01.png");
+  margin-top: 66px;
+}
 .banner h2 {
   font-size: 66px;
 }
@@ -10,9 +14,14 @@
 
 .cta {
   position: absolute;
-  top: 30%;
-  left: 8%;
+  top: 26%;
+  left: 5%;
   z-index: 6666;
+  background-color: rgba(250, 235, 215, 0.2);
+  width: 600px;
+  padding: 19px;
+  box-sizing: border-box;
+  border-radius: 5px;
 }
 
 .join-us {
@@ -22,7 +31,7 @@
 
 .service-intro {
   background: url("");
-  height: 3000px;
+  height: 3060px;
 }
 
 .service-intro-card {
@@ -32,12 +41,12 @@
 }
 
 .swiper {
-  max-width: 1240px;
+  max-width: 1200px;
   height: 320px;
 }
 
 .swiper-slide {
-  width: 20%;
+  width: 200px;
 }
 
 .team-intro {

@@ -3,8 +3,8 @@
     font-size: 66px;
   }
 
-  // background: url(""); // 先用輪播替代, 選好圖再換 bg
-  // padding-top: 160px;
+  background: url("../img/cyborg-sketch-done-lidfixed01.png");
+  margin-top: 66px;
 }
 
 .navbar {
@@ -15,9 +15,14 @@
 
 .cta {
   position: absolute;
-  top: 30%;
-  left: 8%;
+  top: 26%;
+  left: 5%;
   z-index: 6666;
+  background-color: rgba(250, 235, 215, .2);
+  width: 600px;
+  padding: 19px;
+  box-sizing: border-box;
+  border-radius: 5px;
 }
 
 .join-us {
@@ -27,7 +32,7 @@
 
 .service-intro {
   background: url("");
-  height: 3000px;
+  height: 3060px;
 }
 
 .service-intro-card {
@@ -35,6 +40,16 @@
   height: 100%;
   width: 200px;
 }
+
+// .card-mask {
+//   background-color: rgba(250, 235, 215, 0.6);
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   border-radius: 5px;
+// }
 
 .swiper {
   max-width: 1200px;

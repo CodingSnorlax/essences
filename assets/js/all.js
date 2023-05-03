@@ -30,7 +30,7 @@ $(document).ready(function () {
     slidesPerView: 5, // 每行顯示卡片數量
     spaceBetween: 30, // 卡片間距
     autoplay: {
-      delay: 1500,
+      delay: 2000,
     },
   });
 });
