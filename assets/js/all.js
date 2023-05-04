@@ -27,8 +27,21 @@ $(document).ready(function () {
   const swiper = new Swiper(".swiper", {
     loop: false,
     direction: "horizontal",
-    slidesPerView: 5, // 每行顯示卡片數量
-    spaceBetween: 30, // 卡片間距
+    // 響應式設計
+    breakpoints: {
+      492: {
+        slidesPerView: 2, // 每行顯示卡片數量
+        spaceBetween: 15, // 卡片間距
+      },
+      991: {
+        slidesPerView: 4,
+        spaceBetween: 20,
+      },
+      1200: {
+        slidesPerView: 5,
+        spaceBetween: 30,
+      },
+    },
     autoplay: {
       delay: 2000,
     },

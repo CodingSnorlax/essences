@@ -3,7 +3,7 @@
     font-size: 66px;
   }
 
-  background: url("../img/cyborg-sketch-done-lidfixed01.png");
+  background-image: url("../img/cyborg-sketch-done-lidfixed01.png");
   margin-top: 66px;
 }
 
@@ -19,37 +19,17 @@
   left: 5%;
   z-index: 6666;
   background-color: rgba(250, 235, 215, .2);
-  width: 600px;
+  max-width: 600px;
   padding: 19px;
   box-sizing: border-box;
   border-radius: 5px;
 }
 
-.join-us {
-  background: url("");
-  height: 800px;
-}
-
-.service-intro {
-  background: url("");
-  height: 3060px;
-}
-
 .service-intro-card {
   padding: 120px 8px;
   height: 100%;
-  width: 200px;
+  max-width: 200px;
 }
-
-// .card-mask {
-//   background-color: rgba(250, 235, 215, 0.6);
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   height: 100%;
-//   border-radius: 5px;
-// }
 
 .swiper {
   max-width: 1200px;
@@ -57,9 +37,5 @@
 }
 
 .swiper-slide {
-  width: 200px;
-}
-
-.team-intro {
-  height: 800px;
+  max-width: 200px;
 }

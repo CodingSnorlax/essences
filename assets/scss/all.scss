@@ -115,6 +115,10 @@ h1 a {
   color: #1c4a7b;
 }
 
+.title-decoration {
+  border-bottom: 1px solid #c1272d;
+}
+
 // 背景圖共通設定
 .background-setting {
   width: 100%;
@@ -122,3 +126,4 @@ h1 a {
   background-repeat: no-repeat;
   background-size: cover;
 }
+

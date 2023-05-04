@@ -1,5 +1,5 @@
 .banner {
-  background: url("../img/cyborg-sketch-done-lidfixed01.png");
+  background-image: url("../img/cyborg-sketch-done-lidfixed01.png");
   margin-top: 66px;
 }
 .banner h2 {
@@ -18,26 +18,16 @@
   left: 5%;
   z-index: 6666;
   background-color: rgba(250, 235, 215, 0.2);
-  width: 600px;
+  max-width: 600px;
   padding: 19px;
   box-sizing: border-box;
   border-radius: 5px;
 }
 
-.join-us {
-  background: url("");
-  height: 800px;
-}
-
-.service-intro {
-  background: url("");
-  height: 3060px;
-}
-
 .service-intro-card {
   padding: 120px 8px;
   height: 100%;
-  width: 200px;
+  max-width: 200px;
 }
 
 .swiper {
@@ -46,9 +36,5 @@
 }
 
 .swiper-slide {
-  width: 200px;
-}
-
-.team-intro {
-  height: 800px;
+  max-width: 200px;
 }/*# sourceMappingURL=index.css.map */
