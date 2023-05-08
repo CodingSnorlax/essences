@@ -1,10 +1,11 @@
 .banner {
-  position: relative;
-  background-image: url("../img/essences-banner.png");
+  padding-top: 100px;
+  padding-left: 45px;
+  background-image: url("../img/essences-banner-flip.png");
   margin-top: 66px;
 }
 .banner h2 {
-  font-size: 66px;
+  font-size: 76px;
 }
 .banner .title-style {
   font-family: "Poppins", sans-serif;
@@ -24,13 +25,10 @@
 }
 
 .cta {
-  position: absolute;
-  top: 15%;
-  left: 5%;
-  z-index: 6666;
+  box-shadow: 15px 6px 30px #1c4a7b;
   background-color: rgba(255, 255, 255, 0.2);
   max-width: 60%;
-  padding: 19px;
+  padding: 20px 25px;
   box-sizing: border-box;
   border-radius: 5px;
 }
@@ -53,6 +51,8 @@
 @media (max-width: 767px) {
   .banner {
     background-position: 35% 75%;
+    padding-top: 100px;
+    padding-left: 25px;
   }
   .banner h2 {
     font-size: 48px;
@@ -65,7 +65,7 @@
   }
   .cta {
     max-width: 90%;
-    top: 20%;
+    color: white;
   }
   #chineseCta {
     display: none;
@@ -77,9 +77,9 @@
 @media (max-width: 768px) {
   .banner {
     background-position: top;
-  }
-  .banner {
     background-size: cover;
+    padding-top: 150px;
+    padding-left: 40px;
   }
   #chineseCta {
     display: block;

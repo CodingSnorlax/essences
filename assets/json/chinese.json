@@ -19,6 +19,12 @@
   },
   "serviceArea": {},
   "teamArea": {},
-  "joinUsArea": {},
+  "joinEssencesArea": {
+    "employeeBenefits": {
+      "first": "Adopt a human-centered approach to management and two days off a week.",
+      "second": ""
+    },
+    "prospects": {}
+  },
   "footer": {}
 }
