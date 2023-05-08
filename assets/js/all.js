@@ -1,24 +1,47 @@
-let lang = "/essences/assets/json/chinese"; // 預設繁中
+// let lang = "/essences/assets/json/chinese"; // 預設繁中
+let lang = "/assets/json/chinese";
 
+// 將 JSON 文件中的內容加載到網頁上
 function loadLang(lang) {
   $.getJSON(lang + ".json", function (data) {
-    // 將 JSON 文件中的內容加載到網頁上
-    $("#pageTitle").text(data.title);
-    $("#ctaIntro").text(data.ctaIntro);
-    $("#joinEssenceBtn").text(data.joinEssenceBtn);
-    $("#contactUsBtn").text(data.contactUsBtn);
-    $("#switchBtn").text(data.switchButton);
+    // header
+    $("#headerHomeLink").text(data.header.homeLink);
+    $("#headerServicesLink").text(data.header.servicesLink);
+    $("#headerNewsLink").text(data.header.newsLink);
+    $("#headerPhotoGalleryLink").text(data.header.photoGalleryLink);
+    $("#headerSocialParticipationLink").text(
+      data.header.socialParticipationLink
+    );
+    $("#headerTeamLink").text(data.header.teamLink);
+    $("#headerJoinUsLink").text(data.header.joinUsLink);
+    $("#headerContactLink").text(data.header.contactLink);
+    $("#headerSwitchLangBtn").text(data.header.switchLangBtn);
+    // banner
+    $("#bannerCompanyName").text(data.bannerArea.title);
+    $("#bannerCtaIntroTitle1").text(data.bannerArea.ctaIntroTitle1);
+    $("#bannerCtaIntroTitle2").text(data.bannerArea.ctaIntroTitle2);
+    $("#joinEssenceBtn").text(data.bannerArea.joinEssenceBtn);
+    $("#contactUsBtn").text(data.bannerArea.contactUsBtn);
   });
 }
 
 $(document).ready(function () {
   loadLang(lang); // 加載默認語言版本的內容
+  $("#chineseCta").show();
 
-  $("#switchBtn").click(function () {
-    if (lang === "/essences/assets/json/en") {
-      lang = "/essences/assets/json/chinese";
+  $("#headerSwitchLangBtn").click(function () {
+    if (lang === "/assets/json/en") {
+      lang = "/assets/json/chinese";
+      $("#chineseCta").removeClass().addClass("d-block mb-4 content-style");
+      $("#enCta").addClass("d-none");
+      $("#en-logo").removeClass().addClass("d-block mb-3");
+      $("#joinEssenceBtn").show();
     } else {
-      lang = "/essences/assets/json/en";
+      lang = "/assets/json/en";
+      $("#chineseCta").addClass("d-none");
+      $("#enCta").removeClass().addClass("d-block mb-4 content-style");
+      $("#en-logo").removeClass().addClass("d-none");
+      $("#joinEssenceBtn").hide();
     }
     $("body").removeClass().addClass(lang);
     loadLang(lang); // 加載切換後的語言版本的內容
@@ -27,7 +50,6 @@ $(document).ready(function () {
   const swiper = new Swiper(".swiper", {
     loop: false,
     direction: "horizontal",
-    // 響應式設計
     breakpoints: {
       492: {
         slidesPerView: 2, // 每行顯示卡片數量

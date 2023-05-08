@@ -34,13 +34,15 @@
     <link rel="stylesheet" href="./assets/css/index.css" />
     <title>首頁 | 易勝資訊</title>
   </head>
-  <body class="zh-tw-web">
+  <body>
     <div class="container">
       <header>
         <nav class="navbar navbar-expand-lg bg-white px-5 fixed-top">
           <!-- logo -->
           <h1>
-            <a class="logo" href="./index.html"><img src="" />易勝資訊</a>
+            <a class="logo" href="./index.html"
+              ><img src="" alt="易勝資訊" />易勝資訊</a
+            >
           </h1>
           <button
             class="navbar-toggler"
@@ -60,6 +62,7 @@
             <ul class="navbar-nav nav-bar pb-2">
               <li class="nav-item me-2">
                 <a
+                  id="headerHomeLink"
                   class="animated-button text-darkBlue victoria-one"
                   href="./index.html"
                   >首頁</a
@@ -67,28 +70,39 @@
               </li>
               <li class="nav-item me-2">
                 <a
+                  id="headerServicesLink"
                   class="animated-button text-darkBlue victoria-one"
                   href="./#service-intro"
                   >服務介紹</a
                 >
               </li>
               <li class="nav-item me-2">
-                <a class="animated-button text-darkBlue victoria-one" href="#"
+                <a
+                  id="headerNewsLink"
+                  class="animated-button text-darkBlue victoria-one"
+                  href="#"
                   >最新消息</a
                 >
               </li>
               <li class="nav-item me-2">
-                <a class="animated-button text-darkBlue victoria-one" href="#"
+                <a
+                  id="headerPhotoGalleryLink"
+                  class="animated-button text-darkBlue victoria-one"
+                  href="#"
                   >活動花絮</a
                 >
               </li>
               <li class="nav-item me-2">
-                <a class="animated-button text-darkBlue victoria-one" href="#"
+                <a
+                  id="headerSocialParticipationLink"
+                  class="animated-button text-darkBlue victoria-one"
+                  href="#"
                   >社會參與</a
                 >
               </li>
               <li class="nav-item me-2">
                 <a
+                  id="headerTeamLink"
                   class="animated-button text-darkBlue victoria-one"
                   href="./#teamIntro"
                   >團隊介紹</a
@@ -96,22 +110,30 @@
               </li>
               <li class="nav-item me-2">
                 <a
+                  id="headerJoinUsLink"
                   class="animated-button text-darkBlue victoria-one"
                   href="./#joinEssences"
                   >加入易勝</a
                 >
               </li>
-              <li class="nav-item me-2">
+              <li class="nav-item me-2 mb-2">
                 <a
+                  id="headerContactLink"
                   class="animated-button text-darkBlue victoria-one"
                   href="./contact.html"
                   >聯絡我們</a
                 >
               </li>
+              <li class="nav-item d-flex justify-content-center align-items-center">
+                <button
+                  class="btn btn-primary text-light"
+                  id="headerSwitchLangBtn"
+                >
+                  語言
+                </button>
+              </li>
             </ul>
-            <button class="btn btn-primary text-light" id="switchBtn">
-              語言
-            </button>
+            <!-- 原本的位置 -->
           </div>
         </nav>
       </header>
@@ -119,15 +141,40 @@
 
     <!-- banner 區塊 -->
     <div class="banner background-setting">
-      <div class="cta chinese-web content text-light">
-        <h2 id="pageTitle" class="fw-bold mb-3">易勝資訊</h2>
-        <img class="mb-3" src="./assets/img/LOGO2.png" alt="logo" />
-        <h5 class="mb-4 fs-5" id="ctaIntro">
-          提供熱忱的全方位服務，值得信賴的軟體廠商
+      <div class="cta content text-light">
+        <h2 id="bannerCompanyName" class="fw-bold mb-3">易勝資訊</h2>
+        <img
+          class="mb-3"
+          id="en-logo"
+          src="./assets/img/LOGO2.png"
+          alt="essences logo"
+        />
+        <h5 class="mb-4 title-style">
+          <span id="bannerCtaIntroTitle1">提供熱忱的全方位服務</span>
+          <br />
+          <span id="bannerCtaIntroTitle2">值得信賴的軟體廠商</span>
         </h5>
-        <p class="mb-4 d-none d-md-block">
-          提供熱忱的服務，秉持誠信負責的態度，兼顧客戶需求及工程師的素養，<br />以眾多的優秀專案人才為客戶提供最優秀、最全方位的服務，<br />從前端、後端、全端、手機端到雲端的建置，精準的需求規劃、連線整合，<br />為客戶量身打造甚至無到有的專案，<br />期許成為值得客戶信賴的優良軟體廠商
+        <p id="chineseCta" class="mb-4">
+          <span>提供熱忱的服務，秉持誠信負責的態度，</span>
+          <br />
+          <span>兼顧客戶需求及工程師的素養，</span>
+          <br />
+          <span>以眾多優秀專案人才提供客戶最優秀、全方位的服務。</span>
+          <br />
+          <br />
+          <span>從前端、後端、全端、手機端到雲端的建置，</span>
+          <br />
+          <span>為客戶量身打造精準的需求規劃、連線整合，</span>
+          <br />
+          <span>期許成為值得信賴的優良軟體廠商。</span>
         </p>
+        <p id="enCta" class="mb-4 d-none">
+          We provides IT outsourcing services and develops tailor-made software
+          including web app, <br />mobile app, and cloud computing services. We
+          consider both the needs of our clients and employees. Our goal is to
+          be one of the most reliable and creative companies in the IT field.
+        </p>
+
         <a
           class="btn btn-primary btn-lg me-2 text-light"
           id="joinEssenceBtn"

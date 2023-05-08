@@ -1,7 +1,24 @@
 {
-  "title": "易勝資訊",
-  "ctaIntro": "提供熱忱的全方位服務，值得信賴的軟體廠商",
-  "joinEssenceBtn": "加入易勝",
-  "contactUsBtn": "聯絡我們",
-  "switchButton": "繁中"
+  "header": {
+    "homeLink": "首頁",
+    "servicesLink": "服務介紹",
+    "newsLink": "最新消息",
+    "photoGalleryLink": "活動花絮",
+    "socialParticipationLink": "社會參與",
+    "teamLink": "團隊介紹",
+    "joinUsLink": "加入易勝",
+    "contactLink": "聯絡我們",
+    "switchLangBtn": "繁中"
+  },
+  "bannerArea": {
+    "title": "易勝資訊",
+    "ctaIntroTitle1": "提供熱忱的全方位服務",
+    "ctaIntroTitle2": "值得信賴的軟體廠商",
+    "joinEssenceBtn": "加入易勝",
+    "contactUsBtn": "聯絡我們"
+  },
+  "serviceArea": {},
+  "teamArea": {},
+  "joinUsArea": {},
+  "footer": {}
 }

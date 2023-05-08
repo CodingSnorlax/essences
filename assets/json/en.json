@@ -1,7 +1,24 @@
 {
-  "title": "",
-  "ctaIntro": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
-  "joinEssenceBtn": "Join Us",
-  "contactUsBtn": "Contact Us",
-  "switchButton": "EN"
+  "header": {
+    "homeLink": "Home",
+    "servicesLink": "Services",
+    "newsLink": "News",
+    "photoGalleryLink": "Photo Gallery",
+    "socialParticipationLink": "Social Participation",
+    "teamLink": "Team",
+    "joinUsLink": "Join Us",
+    "contactLink": "Contact",
+    "switchLangBtn": "EN"
+  },
+  "bannerArea": {
+    "title": "",
+    "ctaIntroTitle1": "Looking for a full-service IT company?",
+    "ctaIntroTitle2": "Essences is your trustworthy partner.",
+    "joinEssenceBtn": "Apply Now",
+    "contactUsBtn": "Contact Us"
+  },
+  "serviceArea": {},
+  "teamArea": {},
+  "joinUsArea": {},
+  "footer": {}
 }
