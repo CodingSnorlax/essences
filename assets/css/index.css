@@ -48,6 +48,10 @@
   max-width: 200px;
 }
 
+.cargo-product-structure-diagram-wrap {
+  max-width: 80%;
+}
+
 @media (max-width: 767px) {
   .banner {
     background-position: 35% 75%;
@@ -72,6 +76,9 @@
   }
   #enCta {
     display: none;
+  }
+  .cargo-product-structure-diagram-wrap {
+    max-width: 100%;
   }
 }
 @media (max-width: 768px) {

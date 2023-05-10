@@ -52,6 +52,10 @@
   max-width: 200px;
 }
 
+.cargo-product-structure-diagram-wrap {
+  max-width: 80%;
+}
+
 // 手機版
 @media (max-width: 767px) {
   .banner {
@@ -83,6 +87,10 @@
 
   #enCta {
     display: none;
+  }
+
+  .cargo-product-structure-diagram-wrap {
+    max-width: 100%;
   }
 }
 

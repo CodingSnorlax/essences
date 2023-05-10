@@ -39,7 +39,7 @@ $(document).ready(function () {
     } else {
       lang = "/assets/json/en";
       $("#chineseCta").addClass("d-none");
-      $("#enCta").removeClass().addClass("d-block mb-4 content-style");
+      $("#enCta").removeClass().addClass("d-block mb-4 content-style text-light");
       $("#en-logo").removeClass().addClass("d-none");
       $("#joinEssenceBtn").hide();
     }
