@@ -19,6 +19,28 @@
   },
   "serviceArea": {},
   "teamArea": {},
-  "joinEssencesArea": {},
+  "joinEssencesArea": {
+    "mainTitle": "Join Essences",
+    "employeesBenefits": {
+      "title": "Employee Benefits",
+      "list1": "➣ Adopt a human-centered approach to management and two days off a week.",
+      "list2": "➣ National Health Insurance and labor insurance.",
+      "list3": "➣ Group medical insurance. Employees will be covered from day 1.",
+      "list4": "➣ Holiday bonuses or gifts.",
+      "list5": "➣ Employee education and training.",
+      "list6": "➣ Flexible time off.",
+      "list7": "➣ Team dinners and year-end party.",
+      "list8": "➣ Performance-based pay.",
+      "list9": "➣ Computer hardware subsidies."
+    },
+    "futureOutlook": {
+      "title": "Future Outlook",
+      "intro": "Aiming to grow strong, we focus on current market demands and new opportunities.",
+      "list1": "➣ Gathering IT experts from diverse backgrounds.",
+      "list2": "➣ Assist our clients and improve their competitiveness by providing the latest and best-integrated solutions.",
+      "list3": "➣ Keep focusing on the development of front-end, cloud computing, big data, computer vision, and blockchain.",
+      "list4": "Our ultimate goal is to become the most trustworthy software company."
+    }
+  },
   "footer": {}
 }

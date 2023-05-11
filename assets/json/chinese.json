@@ -20,11 +20,27 @@
   "serviceArea": {},
   "teamArea": {},
   "joinEssencesArea": {
-    "employeeBenefits": {
-      "first": "Adopt a human-centered approach to management and two days off a week.",
-      "second": ""
+    "mainTitle": "加入易勝",
+    "employeesBenefits": {
+      "title": "福利制度",
+      "list1": "➣ 採人性化自主管理，週休二日",
+      "list2": "➣ 員工保險，勞、健保福利",
+      "list3": "➣ 團險、意外保險、意外醫療及住院醫療保險",
+      "list4": "➣ 三節獎金或禮品",
+      "list5": "➣ 員工教育訓練",
+      "list6": "➣ 彈性休假制度",
+      "list7": "➣ 專案小組聚餐及春酒尾牙等餐會",
+      "list8": "➣ 績效導向的薪資報酬",
+      "list9": "➣ 員工電腦設備補助"
     },
-    "prospects": {}
+    "futureOutlook": {
+      "title": "未來展望",
+      "intro": "茁壯成長、專注目前市場需求、放眼未來展望：",
+      "list1": "➣ 廣納各方武林高手",
+      "list2": "➣ 協助現有客戶提升最新、最佳的整合暨解決方案，精準有效地運用資訊科技強化競爭力",
+      "list3": "➣ 放眼前端、雲端、大數據 AI、電腦視覺 AI、區塊鏈等專案的發展",
+      "list4": "易勝資訊以「值得信賴的軟體公司」為最終企業目標"
+    }
   },
   "footer": {}
 }

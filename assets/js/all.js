@@ -22,6 +22,58 @@ function loadLang(lang) {
     $("#bannerCtaIntroTitle2").text(data.bannerArea.ctaIntroTitle2);
     $("#joinEssenceBtn").text(data.bannerArea.joinEssenceBtn);
     $("#contactUsBtn").text(data.bannerArea.contactUsBtn);
+    // join us area
+    $("#joinEssencesAreaMainTitle").text(data.joinEssencesArea.mainTitle);
+    // 員工福利
+    $("#joinEssencesAreaEmployeesBenefitsTitle").text(
+      data.joinEssencesArea.employeesBenefits.title
+    );
+    $("#joinEssencesAreaEmployeesBenefitsList1").text(
+      data.joinEssencesArea.employeesBenefits.list1
+    );
+    $("#joinEssencesAreaEmployeesBenefitsList2").text(
+      data.joinEssencesArea.employeesBenefits.list2
+    );
+    $("#joinEssencesAreaEmployeesBenefitsList3").text(
+      data.joinEssencesArea.employeesBenefits.list3
+    );
+    $("#joinEssencesAreaEmployeesBenefitsList4").text(
+      data.joinEssencesArea.employeesBenefits.list4
+    );
+    $("#joinEssencesAreaEmployeesBenefitsList5").text(
+      data.joinEssencesArea.employeesBenefits.list5
+    );
+    $("#joinEssencesAreaEmployeesBenefitsList6").text(
+      data.joinEssencesArea.employeesBenefits.list6
+    );
+    $("#joinEssencesAreaEmployeesBenefitsList7").text(
+      data.joinEssencesArea.employeesBenefits.list7
+    );
+    $("#joinEssencesAreaEmployeesBenefitsList8").text(
+      data.joinEssencesArea.employeesBenefits.list8
+    );
+    $("#joinEssencesAreaEmployeesBenefitsList9").text(
+      data.joinEssencesArea.employeesBenefits.list9
+    );
+    // 未來展望
+    $("#joinEssencesAreaFutureOutlookTitle").text(
+      data.joinEssencesArea.futureOutlook.title
+    );
+    $("#joinEssencesAreaFutureOutlookIntro").text(
+      data.joinEssencesArea.futureOutlook.intro
+    );
+    $("#joinEssencesAreaFutureOutlookList1").text(
+      data.joinEssencesArea.futureOutlook.list1
+    );
+    $("#joinEssencesAreaFutureOutlookList2").text(
+      data.joinEssencesArea.futureOutlook.list2
+    );
+    $("#joinEssencesAreaFutureOutlookList3").text(
+      data.joinEssencesArea.futureOutlook.list3
+    );
+    $("#joinEssencesAreaFutureOutlookList4").text(
+      data.joinEssencesArea.futureOutlook.list4
+    );
   });
 }
 
@@ -39,7 +91,9 @@ $(document).ready(function () {
     } else {
       lang = "/assets/json/en";
       $("#chineseCta").addClass("d-none");
-      $("#enCta").removeClass().addClass("d-block mb-4 content-style text-light");
+      $("#enCta")
+        .removeClass()
+        .addClass("d-block mb-4 content-style text-light");
       $("#en-logo").removeClass().addClass("d-none");
       $("#joinEssenceBtn").hide();
     }
