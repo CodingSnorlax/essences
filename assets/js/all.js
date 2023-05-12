@@ -77,32 +77,65 @@ function loadLang(lang) {
   });
 }
 
+let isMobile = window.matchMedia("(max-width: 767px)").matches;
+function checkIsMobile(isMobile) {
+  if (isMobile) {
+    $("#enCta").removeClass().addClass("d-none");
+    $("#chineseCta").removeClass().addClass("d-none");
+  } else {
+    if (lang === "/assets/json/en") {
+      $("#chineseCta").addClass("d-none");
+      $("#enCta")
+        .removeClass()
+        .addClass("d-block mb-4 content-style text-darkBlue");
+    } else {
+      $("#chineseCta").removeClass().addClass("d-block mb-4 content-style");
+      $("#enCta").addClass("d-none");
+    }
+  }
+}
+
 $(document).ready(function () {
   loadLang(lang); // 加載默認語言版本的內容
-  $("#chineseCta").show();
+  $("#chineseCta").show(); // 進首頁預設顯示中文版
+  checkIsMobile(isMobile); // 如果是手機版, 在畫面載入就先判斷一次
 
   $("#headerSwitchLangBtn").click(function () {
+    // isMobile = window.matchMedia("(max-width: 767px)").matches;
+    console.log("偵測是否是手機板", isMobile);
+
     if (lang === "/assets/json/en") {
+      // 切中文版
       lang = "/assets/json/chinese";
       $("#chineseCta").removeClass().addClass("d-block mb-4 content-style");
       $("#enCta").addClass("d-none");
       $("#en-logo").removeClass().addClass("d-block mb-3");
       $("#joinEssenceBtn").show();
     } else {
+      // 切英文版
       lang = "/assets/json/en";
       $("#chineseCta").addClass("d-none");
       $("#enCta")
         .removeClass()
-        .addClass("d-block mb-4 content-style text-light");
-      $("#en-logo").removeClass().addClass("d-none");
+        .addClass("d-block mb-4 content-style text-darkBlue");
       $("#joinEssenceBtn").hide();
     }
+
+    //
+    checkIsMobile(isMobile);
     $("body").removeClass().addClass(lang);
     loadLang(lang); // 加載切換後的語言版本的內容
   });
 
+  // 視窗變化時就觸發 function
+  $(window).resize(function () {
+    isMobile = window.matchMedia("(max-width: 767px)").matches;
+    checkIsMobile(isMobile);
+  });
+
   const swiper = new Swiper(".swiper", {
     loop: false,
+    rewind: true,
     direction: "horizontal",
     breakpoints: {
       492: {
