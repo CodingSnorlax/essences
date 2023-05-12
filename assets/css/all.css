@@ -110,7 +110,7 @@ h1 a {
 }
 
 .background-setting {
-  width: 100%;
+  max-width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }/*# sourceMappingURL=all.css.map */
