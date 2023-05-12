@@ -121,7 +121,7 @@ $(document).ready(function () {
       $("#joinEssenceBtn").hide();
     }
 
-    //
+    // 每次按完都要確認一次是否是手機版
     checkIsMobile(isMobile);
     $("body").removeClass().addClass(lang);
     loadLang(lang); // 加載切換後的語言版本的內容
