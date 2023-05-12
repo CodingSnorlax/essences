@@ -2,13 +2,13 @@
   padding: 100px 0px;
 
   h2 {
-    font-size: 76px;
+    font-size: 56px;
   }
 
   .title-style {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    font-size: 48px;
+    font-size: 36px;
   }
 
   .content-style {
@@ -30,10 +30,17 @@
 .cta {
   box-shadow: 15px 6px 30px #1c4a7b;
   background-color: rgba(255, 255, 255, 0.2);
-  max-width: 40%;
+  max-width: 35%;
   padding: 20px 10px;
   box-sizing: border-box;
   border-radius: 5px;
+}
+
+.service-intro,
+.join-us {
+  background-image: url('../img/gen-city02.png');
+  background-attachment: fixed;
+  background-position: top;
 }
 
 .service-intro-card {
@@ -90,6 +97,11 @@
 
   .cargo-product-structure-diagram-wrap {
     max-width: 100%;
+  }
+
+  .service-intro,
+  .join-us {
+    background-image: url('');
   }
 }
 
