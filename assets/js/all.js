@@ -134,27 +134,48 @@ $(document).ready(function () {
   });
 
   const swiper = new Swiper(".swiper", {
-    loop: true,
+    loop: false,
     rewind: true,
     direction: "horizontal",
+    spaceBetween: 15,
     breakpoints: {
       492: {
         slidesPerView: 2, // 每行顯示卡片數量
         spaceBetween: 15, // 卡片間距
       },
       991: {
-        slidesPerView: 4,
-        spaceBetween: 20,
-      },
-      1200: {
         slidesPerView: 5,
         spaceBetween: 30,
       },
+      // 1200: {
+      //   slidesPerView: 5,
+      //   spaceBetween: 30,
+      // },
     },
     autoplay: {
       delay: 2000,
     },
   });
+  //   loop: false,
+  //   direction: "horizontal",
+  //   breakpoints: {
+  //     768: {
+  //       slidesPerView: 2, // 每行顯示卡片數量
+  //       spaceBetween: 15, // 卡片間距
+  //     },
+  //     992: {
+  //       slidesPerView: 4,
+  //       spaceBetween: 20,
+  //     },
+  //     // 1200: {
+  //     //   slidesPerView: 5,
+  //     //   spaceBetween: 30,
+  //     // },
+  //   },
+  //   autoplay: {
+  //     delay: 2000,
+  //   },
+  // });
 });
 
 // 聯絡我們的表格
