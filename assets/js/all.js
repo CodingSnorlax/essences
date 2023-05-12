@@ -134,7 +134,7 @@ $(document).ready(function () {
   });
 
   const swiper = new Swiper(".swiper", {
-    loop: false,
+    loop: true,
     rewind: true,
     direction: "horizontal",
     breakpoints: {
