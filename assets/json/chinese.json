@@ -22,7 +22,7 @@
       "title": "專案開發實例",
       "culturalInd": "文化產業",
       "culturalIndTech": "APP 開發與維運 iOS/Android",
-      "financeInd": "財經產業",
+      "financeServicesInd": "財經產業",
       "financeIndTech": "重製新聞、股票前端網頁",
       "RealEstateCompany": "不動產媒合",
       "RealEstateCompanyTech": "官網與後台作業流程開發 (前、後端建置)",
@@ -34,6 +34,19 @@
       "governmentTech": "串接多方資料並依使用者權限劃分可供查詢的資料產出時序圖與關聯圖",
       "logistics": "物流產業",
       "logisticsTech": "理貨、點貨、配送完整流程全新上架"
+    },
+    "outsourcingIntro": {
+      "proMainTitle": "人才服務",
+      "proTitle": "易勝資訊提供專業豐富的人才服務",
+      "proList1": "➣ 眾多的技術人才資源",
+      "proList2": "➣ 持續不斷的人才發掘能力",
+      "proList3": "➣ 彈性的作業配合(駐點或遠距)",
+      "safeTitle": "易勝資訊承諾安全嚴謹的人才服務",
+      "safeList1": "➣ 完整的資安程序",
+      "safeList2": "➣ 完善的資安訓練",
+      "safeList3": "➣ 全面的資安執行",
+      "safeList4": "➣ 定期的資安審查",
+      "safeList5": "➣ ISO 27001 認證"
     },
     "outsourcing": {
       "title": "人才資源實例",

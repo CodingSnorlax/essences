@@ -35,6 +35,19 @@
       "logistics": "Logistics",
       "logisticsTech": "re-invention of tallying, inventorying and goods distribution process"
     },
+    "outsourcingIntro": {
+      "proMainTitle": "Outsourcing Services",
+      "proTitle": "Our Talent Acquisition Services",
+      "proList1": "➣ Extended talent pool",
+      "proList2": "➣ Relentless discovering on talents",
+      "proList3": "➣ Business model with flexibility",
+      "safeTitle": "Our Promises on Secure and Rigorous Talent Services",
+      "safeList1": "➣ Comprehensive information security procedures",
+      "safeList2": "➣ Well-developed information security training",
+      "safeList3": "➣ Thorough implementation of information security",
+      "safeList4": "➣ Regular information security audits",
+      "safeList5": "➣ ISO 27001 certification"
+    },
     "outsourcing": {
       "title": "Outsourcing Cases",
       "ai": "AI/Big Data",

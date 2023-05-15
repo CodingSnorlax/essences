@@ -66,6 +66,41 @@ function loadLang(lang) {
     $("#softwareDevLogisticsTech").text(
       data.serviceArea.softwareDevelopment.logisticsTech
     );
+    // outsourcing services Intro
+    $("#outsourcingIntroProMainTitle").text(
+      data.serviceArea.outsourcingIntro.proMainTitle
+    );
+    $("#outsourcingIntroProTitle").text(
+      data.serviceArea.outsourcingIntro.proTitle
+    );
+    $("#outsourcingIntroProList1").text(
+      data.serviceArea.outsourcingIntro.proList1
+    );
+    $("#outsourcingIntroProList2").text(
+      data.serviceArea.outsourcingIntro.proList2
+    );
+    $("#outsourcingIntroProList3").text(
+      data.serviceArea.outsourcingIntro.proList3
+    );
+    $("#outsourcingIntroSafeTitle").text(
+      data.serviceArea.outsourcingIntro.safeTitle
+    );
+    $("#outsourcingIntroSafeList1").text(
+      data.serviceArea.outsourcingIntro.safeList1
+    );
+    $("#outsourcingIntroSafeList2").text(
+      data.serviceArea.outsourcingIntro.safeList2
+    );
+    $("#outsourcingIntroSafeList3").text(
+      data.serviceArea.outsourcingIntro.safeList3
+    );
+    $("#outsourcingIntroSafeList4").text(
+      data.serviceArea.outsourcingIntro.safeList4
+    );
+    $("#outsourcingIntroSafeList5").text(
+      data.serviceArea.outsourcingIntro.safeList5
+    );
+
     // outsourcing services
     $("#outsourcingTitle").text(data.serviceArea.outsourcing.title);
     $("#outsourcingAi").text(data.serviceArea.outsourcing.ai);
