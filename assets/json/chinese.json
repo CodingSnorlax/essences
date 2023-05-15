@@ -18,6 +18,23 @@
     "contactUsBtn": "聯絡我們"
   },
   "serviceArea": {
+    "softwareDevelopment": {
+      "title": "專案開發實例",
+      "culturalInd": "文化產業",
+      "culturalIndTech": "APP 開發與維運 iOS/Android",
+      "financeInd": "財經產業",
+      "financeIndTech": "重製新聞、股票前端網頁",
+      "RealEstateCompany": "不動產媒合",
+      "RealEstateCompanyTech": "官網與後台作業流程開發 (前、後端建置)",
+      "AutomotiveCompany": "進口車組裝業",
+      "AutomotiveCompanyTech": "全新打造自動化流程取代人工紙本作業",
+      "bankingInd": "外商銀行",
+      "bankingIndTech": "企金網銀內部系統兼容於新版瀏覽器的系統升級專案",
+      "government": "政府單位",
+      "governmentTech": "串接多方資料並依使用者權限劃分可供查詢的資料產出時序圖與關聯圖",
+      "logistics": "物流產業",
+      "logisticsTech": "理貨、點貨、配送完整流程全新上架"
+    },
     "outsourcing": {
       "title": "人才資源實例",
       "ai": "AI/大數據",

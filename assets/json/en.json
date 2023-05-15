@@ -18,8 +18,25 @@
     "contactUsBtn": "Contact Us"
   },
   "serviceArea": {
+    "softwareDevelopment": {
+      "title": "Software Development Cases",
+      "culturalInd": "Cultural Industry",
+      "culturalIndTech": "APP development and maintenance (iOS/Android)",
+      "financeServicesInd": "Finance Services Industry",
+      "financeServicesIndTech": "remaking news, stock front-end web page",
+      "RealEstateCompany": "Real estate company",
+      "RealEstateCompanyTech": "full stack web development",
+      "AutomotiveCompany": "Automotive company",
+      "AutomotiveCompanyTech": "replace manual operations with new automation operations process",
+      "bankingInd": "Banking Industry",
+      "bankingIndTech": "upgrade and enable internal systems to work on Chrome",
+      "government": "Government",
+      "governmentTech": "integrate multiple data sources to generate relation diagrams and timeline charts according to user permissions",
+      "logistics": "Logistics",
+      "logisticsTech": "re-invention of tallying, inventorying and goods distribution process"
+    },
     "outsourcing": {
-      "title": "Outsourcing Services",
+      "title": "Outsourcing Cases",
       "ai": "AI/Big Data",
       "iot": "IoT / IoV",
       "fourthGeneration": "4G / 5G",

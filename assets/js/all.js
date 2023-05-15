@@ -22,6 +22,50 @@ function loadLang(lang) {
     $("#bannerCtaIntroTitle2").text(data.bannerArea.ctaIntroTitle2);
     $("#joinEssenceBtn").text(data.bannerArea.joinEssenceBtn);
     $("#contactUsBtn").text(data.bannerArea.contactUsBtn);
+    // software Development
+    $("#softwareDevTitle").text(data.serviceArea.softwareDevelopment.title);
+    $("#softwareDevCulturalInd").text(
+      data.serviceArea.softwareDevelopment.culturalInd
+    );
+    $("#softwareDevCulturalIndTech").text(
+      data.serviceArea.softwareDevelopment.culturalIndTech
+    );
+    $("#softwareDevFinanceServicesInd").text(
+      data.serviceArea.softwareDevelopment.financeServicesInd
+    );
+    $("#softwareDevFinanceServicesIndTech").text(
+      data.serviceArea.softwareDevelopment.financeServicesIndTech
+    );
+    $("#softwareDevRealEstateCompany").text(
+      data.serviceArea.softwareDevelopment.RealEstateCompany
+    );
+    $("#softwareDevRealEstateCompanyTech").text(
+      data.serviceArea.softwareDevelopment.RealEstateCompanyTech
+    );
+    $("#softwareDevAutomotiveCompany").text(
+      data.serviceArea.softwareDevelopment.AutomotiveCompany
+    );
+    $("#softwareDevAutomotiveCompanyTech").text(
+      data.serviceArea.softwareDevelopment.AutomotiveCompanyTech
+    );
+    $("#softwareDevBankingInd").text(
+      data.serviceArea.softwareDevelopment.bankingInd
+    );
+    $("#softwareDevBankingIndTech").text(
+      data.serviceArea.softwareDevelopment.bankingIndTech
+    );
+    $("#softwareDevGovernment").text(
+      data.serviceArea.softwareDevelopment.government
+    );
+    $("#softwareDevGovernmentTech").text(
+      data.serviceArea.softwareDevelopment.governmentTech
+    );
+    $("#softwareDevLogistics").text(
+      data.serviceArea.softwareDevelopment.logistics
+    );
+    $("#softwareDevLogisticsTech").text(
+      data.serviceArea.softwareDevelopment.logisticsTech
+    );
     // outsourcing services
     $("#outsourcingTitle").text(data.serviceArea.outsourcing.title);
     $("#outsourcingAi").text(data.serviceArea.outsourcing.ai);
@@ -100,15 +144,15 @@ function checkIsMobile(isMobile) {
       $("#enCta")
         .removeClass()
         .addClass("d-block mb-4 content-style text-darkBlue");
-      $("#outsourcingOthers")
+      $(".fontSize-switch")
         .removeClass()
-        .addClass("fw-bold fs-5 text-center mb-2 text-light");
+        .addClass("fw-bold fs-5 text-center mb-2 text-light fontSize-switch");
     } else {
       $("#chineseCta").removeClass().addClass("d-block mb-4 content-style");
       $("#enCta").addClass("d-none");
-      $("#outsourcingOthers")
+      $(".fontSize-switch")
         .removeClass()
-        .addClass("fw-bold fs-3 text-center mb-2 text-light");
+        .addClass("fw-bold fs-3 text-center mb-2 text-light fontSize-switch");
     }
   }
 }
