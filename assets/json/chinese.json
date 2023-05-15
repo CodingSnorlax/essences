@@ -17,8 +17,22 @@
     "joinEssenceBtn": "加入易勝",
     "contactUsBtn": "聯絡我們"
   },
-  "serviceArea": {},
-  "teamArea": {},
+  "serviceArea": {
+    "outsourcing": {
+      "title": "人才資源實例",
+      "ai": "AI/大數據",
+      "iot": "物聯網/車聯網",
+      "fourthGeneration": "4G / 5G通訊",
+      "blockChain": "區塊鏈",
+      "cloud": "雲端",
+      "finTech": "FinTech",
+      "others": "金融、製造、電商",
+      "techTeam": "技術團隊"
+    }
+  },
+  "teamArea": {
+    "title": "團隊介紹"
+  },
   "joinEssencesArea": {
     "mainTitle": "加入易勝",
     "employeesBenefits": {

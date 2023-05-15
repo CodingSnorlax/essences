@@ -22,6 +22,18 @@ function loadLang(lang) {
     $("#bannerCtaIntroTitle2").text(data.bannerArea.ctaIntroTitle2);
     $("#joinEssenceBtn").text(data.bannerArea.joinEssenceBtn);
     $("#contactUsBtn").text(data.bannerArea.contactUsBtn);
+    // outsourcing services
+    $("#outsourcingTitle").text(data.serviceArea.outsourcing.title);
+    $("#outsourcingAi").text(data.serviceArea.outsourcing.ai);
+    $("#outsourcingIot").text(data.serviceArea.outsourcing.iot);
+    $("#outsourcing4G").text(data.serviceArea.outsourcing.fourthGeneration);
+    $("#outsourcingBlockChain").text(data.serviceArea.outsourcing.blockChain);
+    $("#outsourcingCloud").text(data.serviceArea.outsourcing.cloud);
+    $("#outsourcingFinTech").text(data.serviceArea.outsourcing.finTech);
+    $("#outsourcingOthers").text(data.serviceArea.outsourcing.others);
+    $(".techteam").text(data.serviceArea.outsourcing.techTeam);
+    // 團隊介紹
+    $("#teamIntroTitle").text(data.teamArea.title);
     // join us area
     $("#joinEssencesAreaMainTitle").text(data.joinEssencesArea.mainTitle);
     // 員工福利
@@ -88,9 +100,15 @@ function checkIsMobile(isMobile) {
       $("#enCta")
         .removeClass()
         .addClass("d-block mb-4 content-style text-darkBlue");
+      $("#outsourcingOthers")
+        .removeClass()
+        .addClass("fw-bold fs-5 text-center mb-2 text-light");
     } else {
       $("#chineseCta").removeClass().addClass("d-block mb-4 content-style");
       $("#enCta").addClass("d-none");
+      $("#outsourcingOthers")
+        .removeClass()
+        .addClass("fw-bold fs-3 text-center mb-2 text-light");
     }
   }
 }
@@ -156,26 +174,6 @@ $(document).ready(function () {
       delay: 2000,
     },
   });
-  //   loop: false,
-  //   direction: "horizontal",
-  //   breakpoints: {
-  //     768: {
-  //       slidesPerView: 2, // 每行顯示卡片數量
-  //       spaceBetween: 15, // 卡片間距
-  //     },
-  //     992: {
-  //       slidesPerView: 4,
-  //       spaceBetween: 20,
-  //     },
-  //     // 1200: {
-  //     //   slidesPerView: 5,
-  //     //   spaceBetween: 30,
-  //     // },
-  //   },
-  //   autoplay: {
-  //     delay: 2000,
-  //   },
-  // });
 });
 
 // 聯絡我們的表格

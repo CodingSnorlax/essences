@@ -17,8 +17,22 @@
     "joinEssenceBtn": "Apply Now",
     "contactUsBtn": "Contact Us"
   },
-  "serviceArea": {},
-  "teamArea": {},
+  "serviceArea": {
+    "outsourcing": {
+      "title": "Outsourcing Services",
+      "ai": "AI/Big Data",
+      "iot": "IoT / IoV",
+      "fourthGeneration": "4G / 5G",
+      "blockChain": "Block Chain",
+      "cloud": "Cloud",
+      "finTech": "FinTech",
+      "others": "Finance, Manufacturing, E-commerce",
+      "techTeam": "Tech Team"
+    }
+  },
+  "teamArea": {
+    "title": "Our Team"
+  },
   "joinEssencesArea": {
     "mainTitle": "Join Essences",
     "employeesBenefits": {

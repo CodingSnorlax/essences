@@ -158,12 +158,12 @@
         >
           <h2 id="bannerCompanyName" class="fw-bold mb-3">易勝資訊</h2>
           <img
-            class="mb-3"
+            class="mb-5"
             id="en-logo"
             src="./assets/img/LOGO2.png"
             alt="essences logo"
           />
-          <h5 class="mb-5 title-style">
+          <h5 class="mb-4 title-style">
             <span id="bannerCtaIntroTitle1">提供熱忱的全方位服務</span>
             <br />
             <span id="bannerCtaIntroTitle2">值得信賴的軟體廠商</span>
@@ -488,7 +488,9 @@
         <!-- 專案開發實例 swiper -->
         <div class="card-wrapper mb-5">
           <h3 class="fs-3 text-center mb-5">
-            <span class="title-decoration pb-2 fw-bold">人才資源實例</span>
+            <span class="title-decoration pb-2 fw-bold" id="outsourcingTitle"
+              >人才資源實例</span
+            >
           </h3>
           <!-- Slider main container -->
           <div class="swiper">
@@ -500,10 +502,15 @@
                   class="card service-intro-card"
                   style="background-image: url('./assets/img/AI-card03.png')"
                 >
-                  <h3 class="fw-bold fs-3 text-center mb-2 text-light">
+                  <h3
+                    class="fw-bold fs-3 text-center mb-2 text-light"
+                    id="outsourcingAi"
+                  >
                     AI/大數據
                   </h3>
-                  <p class="text-center text-light fw-bold">技術團隊</p>
+                  <p class="text-center text-light fw-bold techteam">
+                    技術團隊
+                  </p>
                 </div>
               </div>
               <div class="swiper-slide">
@@ -513,10 +520,15 @@
                     background-image: url('./assets/img/iot-smart-home.png');
                   "
                 >
-                  <h3 class="fw-bold fs-3 text-center mb-2 text-light">
+                  <h3
+                    class="fw-bold fs-3 text-center mb-2 text-light"
+                    id="outsourcingIot"
+                  >
                     物聯網/車聯網
                   </h3>
-                  <p class="text-center text-light fw-bold">技術團隊</p>
+                  <p class="text-center text-light fw-bold techteam">
+                    技術團隊
+                  </p>
                 </div>
               </div>
               <div class="swiper-slide">
@@ -524,10 +536,15 @@
                   class="card service-intro-card"
                   style="background-image: url('./assets/img/5G-light.png')"
                 >
-                  <h3 class="fw-bold fs-3 text-center mb-2 text-light">
+                  <h3
+                    class="fw-bold fs-3 text-center mb-2 text-light"
+                    id="outsourcing4G"
+                  >
                     4G/5G通訊
                   </h3>
-                  <p class="text-center text-light fw-bold">技術團隊</p>
+                  <p class="text-center text-light fw-bold techteam">
+                    技術團隊
+                  </p>
                 </div>
               </div>
               <div class="swiper-slide">
@@ -537,10 +554,15 @@
                     background-image: url('./assets/img/block-chain01.png');
                   "
                 >
-                  <h3 class="fw-bold fs-3 text-center mb-2 text-light">
+                  <h3
+                    class="fw-bold fs-3 text-center mb-2 text-light"
+                    id="outsourcingBlockChain"
+                  >
                     區塊鏈
                   </h3>
-                  <p class="text-center text-light fw-bold">技術團隊</p>
+                  <p class="text-center text-light fw-bold techteam">
+                    技術團隊
+                  </p>
                 </div>
               </div>
               <div class="swiper-slide">
@@ -548,8 +570,15 @@
                   class="card service-intro-card"
                   style="background-image: url('./assets/img/cloud01.png')"
                 >
-                  <h3 class="fw-bold fs-3 text-center mb-2 text-light">雲端</h3>
-                  <p class="text-center text-light fw-bold">技術團隊</p>
+                  <h3
+                    class="fw-bold fs-3 text-center mb-2 text-light"
+                    id="outsourcingCloud"
+                  >
+                    雲端
+                  </h3>
+                  <p class="text-center text-light fw-bold techteam">
+                    技術團隊
+                  </p>
                 </div>
               </div>
               <div class="swiper-slide">
@@ -557,10 +586,15 @@
                   class="card service-intro-card"
                   style="background-image: url('./assets/img/fin-tech.png')"
                 >
-                  <h3 class="fw-bold fs-3 text-center mb-2 text-light">
+                  <h3
+                    class="fw-bold fs-3 text-center mb-2 text-light"
+                    id="outsourcingFinTech"
+                  >
                     FinTech
                   </h3>
-                  <p class="text-center text-light fw-bold">技術團隊</p>
+                  <p class="text-center text-light fw-bold techteam">
+                    技術團隊
+                  </p>
                 </div>
               </div>
               <div class="swiper-slide">
@@ -570,10 +604,15 @@
                     background-image: url('./assets/img/softwareParkAtNight.png');
                   "
                 >
-                  <h3 class="fw-bold fs-3 text-center mb-2 text-light">
+                  <h3
+                    class="fw-bold fs-3 text-center mb-2 text-light"
+                    id="outsourcingOthers"
+                  >
                     金融、製造、電商
                   </h3>
-                  <p class="text-center text-light fw-bold">技術團隊</p>
+                  <p class="text-center text-light fw-bold techteam">
+                    技術團隊
+                  </p>
                 </div>
               </div>
             </div>
@@ -588,44 +627,58 @@
       id="teamIntro"
     >
       <div class="container row">
-        <h2 class="fs-1 text-center fw-bold text-light mb-5">團隊介紹</h2>
+        <h2
+          class="fs-1 text-center fw-bold text-light mb-5"
+          id="teamIntroTitle"
+        >
+          團隊介紹
+        </h2>
         <div class="col-md-3">
-          <div class="card mb-4">
+          <div class="card mb-4 p-3">
             <img src="http://fakeimg.pl/300x350/" class="card-img-top" alt="" />
             <div class="card-body">
-              <h5 class="card-title fw-bold text-center text-darkBlue fs-4">
-                總經理 Herman
-              </h5>
+              <h5 class="card-title fw-bold text-darkBlue fs-5">Herman Chen</h5>
+              <ul style="font-size: 14px">
+                <li class="fs-5">總經理</li>
+                <li>
+                  <i class="bi bi-envelope me-1"></i>hnchen@essences.com.tw
+                </li>
+                <li><i class="bi bi-telephone me-1"></i>02-2346-5596</li>
+                <li></li>
+              </ul>
             </div>
           </div>
         </div>
         <div class="col-md-3">
-          <div class="card mb-4">
+          <div class="card mb-4 p-3">
             <img src="http://fakeimg.pl/300x350/" class="card-img-top" alt="" />
-            <div class="card-body">
-              <h5 class="card-title fw-bold text-center text-darkBlue fs-4">
-                技術長 Kent
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold text-center text-darkBlue fs-5">
+                Kent Lin
               </h5>
+              <p>技術長</p>
             </div>
           </div>
         </div>
         <div class="col-md-3">
-          <div class="card mb-4">
+          <div class="card mb-4 p-3">
             <img src="http://fakeimg.pl/300x350/" class="card-img-top" alt="" />
-            <div class="card-body">
-              <h5 class="card-title fw-bold text-center text-darkBlue fs-4">
-                業務團隊 Vivi
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold text-center text-darkBlue fs-5">
+                Vivi
               </h5>
+              <p>業務團隊</p>
             </div>
           </div>
         </div>
         <div class="col-md-3">
-          <div class="card mb-4">
+          <div class="card mb-4 p-3">
             <img src="http://fakeimg.pl/300x350/" class="card-img-top" alt="" />
-            <div class="card-body">
-              <h5 class="card-title fw-bold text-center text-darkBlue fs-4">
-                業務團隊 Vivian
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold text-center text-darkBlue fs-5">
+                Vivian
               </h5>
+              <p>業務團隊</p>
             </div>
           </div>
         </div>
@@ -644,7 +697,7 @@
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
           data-aos-mirror="true"
-          data-aos-once="false"
+          data-aos-once="true"
           data-aos-anchor-placement="top-bottom"
         >
           加入易勝
