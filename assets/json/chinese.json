@@ -18,6 +18,20 @@
     "contactUsBtn": "聯絡我們"
   },
   "serviceArea": {
+    "title": "服務介紹",
+    "projectDevelopment": {
+      "mainTitle": "專案開發",
+      "performanceTitle": "易勝資訊近三年累計亮麗的專案開發成績",
+      "performanceList1": "➣ 系統分析、規劃與設計能力",
+      "performanceList2": "➣ 打造全新後台、中台、前端、手機端之整合性開發專案",
+      "performanceList3": "➣ 優異的跨系統整合與問題診斷",
+      "performanceList4": "➣ 精準理解產品需求，解決客戶問題"
+    },
+    "logisticsSystem": {
+      "title": "易勝資訊物流系統-產品架構圖",
+      "paragraph1": "易勝資訊物流系統結合條碼列印及刷槍設備，即時記錄與追蹤貨物的收貨、理貨、入倉、出倉、配送等各流程狀態，將資訊顯示於即時資訊看板上，為您的倉管物流作業流程把關。",
+      "paragraph2": "再搭配廠商帳款及核銷帳款等財會功能模組，提高您企業財務部門的作業效率及正確率。"
+    },
     "softwareDevelopment": {
       "title": "專案開發實例",
       "culturalInd": "文化產業",

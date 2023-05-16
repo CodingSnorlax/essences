@@ -22,6 +22,35 @@ function loadLang(lang) {
     $("#bannerCtaIntroTitle2").text(data.bannerArea.ctaIntroTitle2);
     $("#joinEssenceBtn").text(data.bannerArea.joinEssenceBtn);
     $("#contactUsBtn").text(data.bannerArea.contactUsBtn);
+    // 服務介紹區塊 (主標)
+    $("#serviceAreaTitle").text(data.serviceArea.title);
+    // 專案開發
+    $("#projectDevMainTitle").text(
+      data.serviceArea.projectDevelopment.mainTitle
+    );
+    $("#projectDevPerformanceTitle").text(
+      data.serviceArea.projectDevelopment.performanceTitle
+    );
+    $("#projectDevPerformanceList1").text(
+      data.serviceArea.projectDevelopment.performanceList1
+    );
+    $("#projectDevPerformanceList2").text(
+      data.serviceArea.projectDevelopment.performanceList2
+    );
+    $("#projectDevPerformanceList3").text(
+      data.serviceArea.projectDevelopment.performanceList3
+    );
+    $("#projectDevPerformanceList4").text(
+      data.serviceArea.projectDevelopment.performanceList4
+    );
+    // logisticsSystem product structure
+    $("#logisticsSystemTitle").text(data.serviceArea.logisticsSystem.title);
+    $("#logisticsSystemParagraph1").text(
+      data.serviceArea.logisticsSystem.paragraph1
+    );
+    $("#logisticsSystemParagraph2").text(
+      data.serviceArea.logisticsSystem.paragraph2
+    );
     // software Development
     $("#softwareDevTitle").text(data.serviceArea.softwareDevelopment.title);
     $("#softwareDevCulturalInd").text(
