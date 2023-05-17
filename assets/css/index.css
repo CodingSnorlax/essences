@@ -54,7 +54,7 @@
   max-width: 200px;
 }
 
-.cargo-product-structure-diagram-wrap {
+.diagram-wrap {
   max-width: 90%;
 }
 
@@ -71,6 +71,9 @@
   .banner .title-style {
     font-size: 24px;
   }
+  .diagram-wrap {
+    max-width: 100%;
+  }
   .cta {
     max-width: 100%;
     color: white;
@@ -80,9 +83,6 @@
   }
   #enCta {
     display: none;
-  }
-  .cargo-product-structure-diagram-wrap {
-    max-width: 100%;
   }
   .service-intro,
   .join-us {

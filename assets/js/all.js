@@ -208,12 +208,14 @@ function checkIsMobile(isMobile) {
       $("#enCta")
         .removeClass()
         .addClass("d-block mb-4 content-style text-darkBlue");
+
       $(".fontSize-switch")
         .removeClass()
         .addClass("fw-bold fs-5 text-center mb-2 text-light fontSize-switch");
     } else {
       $("#chineseCta").removeClass().addClass("d-block mb-4 content-style");
       $("#enCta").addClass("d-none");
+
       $(".fontSize-switch")
         .removeClass()
         .addClass("fw-bold fs-3 text-center mb-2 text-light fontSize-switch");
@@ -223,8 +225,15 @@ function checkIsMobile(isMobile) {
 
 $(document).ready(function () {
   loadLang(lang); // 加載默認語言版本的內容
-  $("#chineseCta").show(); // 進首頁預設顯示中文版
+  // $("#chineseCta").show();
   checkIsMobile(isMobile); // 如果是手機版, 在畫面載入就先判斷一次
+  if (lang === "/assets/json/tw") {
+    $("#cargo-product-structure-en").show();
+    $("#cargo-product-structure-tw").hide();
+  } else {
+    $("#cargo-product-structure-tw").show();
+    $("#cargo-product-structure-en").hide();
+  }
 
   $("#headerSwitchLangBtn").click(function () {
     // isMobile = window.matchMedia("(max-width: 767px)").matches;
@@ -237,6 +246,12 @@ $(document).ready(function () {
       $("#enCta").addClass("d-none");
       $("#en-logo").removeClass().addClass("d-block mb-3");
       $("#joinEssenceBtn").show();
+      $("#cargo-product-structure-tw").show();
+      $("#cargo-product-structure-en").hide();
+      $("[id$='projectDevDiagram']").attr(
+        "src",
+        "./assets/img/program-service-darkblue-tw.png"
+      );
     } else {
       // 切英文版
       lang = "/assets/json/en";
@@ -245,6 +260,12 @@ $(document).ready(function () {
         .removeClass()
         .addClass("d-block mb-4 content-style text-darkBlue");
       $("#joinEssenceBtn").hide();
+      $("#cargo-product-structure-en").show();
+      $("#cargo-product-structure-tw").hide();
+      $("[id$='projectDevDiagram']").attr(
+        "src",
+        "./assets/img/program-service-darkblue-eng.png"
+      );
     }
 
     // 每次按完都要確認一次是否是手機版
