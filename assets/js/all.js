@@ -1,5 +1,5 @@
-// let lang = "/essences/assets/json/chinese"; // 預設繁中
-let lang = "/assets/json/chinese";
+let lang = "/essences/assets/json/chinese"; // 預設繁中
+// let lang = "/assets/json/chinese";
 
 // 將 JSON 文件中的內容加載到網頁上
 function loadLang(lang) {
@@ -42,14 +42,6 @@ function loadLang(lang) {
     );
     $("#projectDevPerformanceList4").text(
       data.serviceArea.projectDevelopment.performanceList4
-    );
-    // logisticsSystem product structure
-    $("#logisticsSystemTitle").text(data.serviceArea.logisticsSystem.title);
-    $("#logisticsSystemParagraph1").text(
-      data.serviceArea.logisticsSystem.paragraph1
-    );
-    $("#logisticsSystemParagraph2").text(
-      data.serviceArea.logisticsSystem.paragraph2
     );
     // software Development
     $("#softwareDevTitle").text(data.serviceArea.softwareDevelopment.title);
@@ -203,7 +195,7 @@ function checkIsMobile(isMobile) {
     $("#enCta").removeClass().addClass("d-none");
     $("#chineseCta").removeClass().addClass("d-none");
   } else {
-    if (lang === "/assets/json/en") {
+    if (lang === "/essences/assets/json/en") {
       $("#chineseCta").addClass("d-none");
       $("#enCta")
         .removeClass()
@@ -227,7 +219,7 @@ $(document).ready(function () {
   loadLang(lang); // 加載默認語言版本的內容
   // $("#chineseCta").show();
   checkIsMobile(isMobile); // 如果是手機版, 在畫面載入就先判斷一次
-  if (lang === "/assets/json/tw") {
+  if (lang === "/essences/assets/json/tw") {
     $("#cargo-product-structure-en").show();
     $("#cargo-product-structure-tw").hide();
   } else {
@@ -239,9 +231,9 @@ $(document).ready(function () {
     // isMobile = window.matchMedia("(max-width: 767px)").matches;
     console.log("偵測是否是手機板", isMobile);
 
-    if (lang === "/assets/json/en") {
+    if (lang === "/essences/assets/json/en") {
       // 切中文版
-      lang = "/assets/json/chinese";
+      lang = "/essences/assets/json/chinese";
       $("#chineseCta").removeClass().addClass("d-block mb-4 content-style");
       $("#enCta").addClass("d-none");
       $("#en-logo").removeClass().addClass("d-block mb-3");
@@ -254,7 +246,7 @@ $(document).ready(function () {
       );
     } else {
       // 切英文版
-      lang = "/assets/json/en";
+      lang = "/essences/assets/json/en";
       $("#chineseCta").addClass("d-none");
       $("#enCta")
         .removeClass()
