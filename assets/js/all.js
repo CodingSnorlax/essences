@@ -43,6 +43,8 @@ function loadLang(lang) {
     $("#projectDevPerformanceList4").text(
       data.serviceArea.projectDevelopment.performanceList4
     );
+    // logisticsSystem product structure
+    $("#logisticsSystemTitle").text(data.serviceArea.logisticsSystem.title);
     // software Development
     $("#softwareDevTitle").text(data.serviceArea.softwareDevelopment.title);
     $("#softwareDevCulturalInd").text(
