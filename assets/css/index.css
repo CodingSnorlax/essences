@@ -58,6 +58,10 @@
   max-width: 90%;
 }
 
+.iso-certificate-wrap {
+  border: 2px solid #ccc;
+}
+
 @media (max-width: 767px) {
   .banner {
     background-position: 35% 75%;
